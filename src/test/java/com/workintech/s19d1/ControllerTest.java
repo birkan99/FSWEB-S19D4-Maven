@@ -3,7 +3,7 @@ package com.workintech.s19d1;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.workintech.s19d1.controller.ActorController;
-import com.workintech.s19d1.dto.ActorRequest;
+import com.workintech.s19d1.repository.ActorRequest;
 import com.workintech.s19d1.entity.Actor;
 import com.workintech.s19d1.entity.Gender;
 import com.workintech.s19d1.entity.Movie;
@@ -22,7 +22,6 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import java.time.LocalDate;
 import java.util.Arrays;
-import java.util.List;
 
 import static org.hamcrest.Matchers.*;
 import static org.mockito.ArgumentMatchers.any;
